@@ -1,123 +1,159 @@
 <!-- s11.html -->
 <script>
-    // 표준 라이브러리
-    // 필수 메소드
+  // 표준 라이브러리
+  // 필수 메소드
 
-    // 숫자 관련 메소드
-    const num = 1.53;
-    // 반올림
-    // console.log(num.toFixed(1));
-    // console.log(Math.round(num));
-    
-    // 올림
-    // console.log(Math.ceil(num));
+  // 숫자 관련 메소드
+  const num = 1.53;
+  // 반올림
+  // console.log(num.toFixed(1));
+  // console.log(Math.round(num));
 
-    // 내림
-    // console.log(Math.floor(num));
+  // 올림
+  // console.log(Math.ceil(num));
 
-    // 문자열로 변경
-    // console.log(num.toString());
+  // 내림
+  // console.log(Math.floor(num));
 
-    // 난수
-    // 0 이상 ~ 1 미만
-    // console.log(Math.random());
+  // 문자열로 변경
+  // console.log(num.toString());
 
-    // 문자열 메소드
-    // 문자의 배열 char의 배열
-    const str = "ABcd";
+  // 난수
+  // 0 이상 ~ 1 미만
+  // console.log(Math.random());
 
-    // console.log(str.charAt(0));
-    // console.log(str.concat("e"));
-    // console.log(str.endsWith("D"));
-    // console.log(str.startsWith("A"));
-    // console.log(str.includes("cd"));
-    // console.log(str.indexOf("e"));
-    // console.log(str.length);
-    // console.log(str.padStart(5));
-    // console.log(str.repeat(5));
-    // console.log(str.replaceAll("c", ""));
-    // console.log(str.slice(1,3));
-    // console.log(str.split(""));
-    // console.log(str.substr(1,2));
-    // console.log(str.substring(1,2));
-    // console.log(str.toLowerCase());
-    // console.log(str.toUpperCase());
-    // console.log(str.padStart(10).trim());
+  // 문자열 메소드
+  // 문자의 배열 char의 배열
+  const str = "ABcd";
 
-    // 배열 메소드
-    const arr = ["A", "B", "c", "d"];
+  // console.log(str.charAt(0));
+  // console.log(str.concat("e"));
+  // console.log(str.endsWith("D"));
+  // console.log(str.startsWith("A"));
+  // console.log(str.includes("cd"));
+  // console.log(str.indexOf("e"));
+  // console.log(str.length);
+  // console.log(str.padStart(5));
+  // console.log(str.repeat(5));
+  // console.log(str.replaceAll("c", ""));
+  // console.log(str.slice(1,3));
+  // console.log(str.split(""));
+  // console.log(str.substr(1,2));
+  // console.log(str.substring(1,2));
+  // console.log(str.toLowerCase());
+  // console.log(str.toUpperCase());
+  // console.log(str.padStart(10).trim());
 
-    // console.log(arr.concat("e", "f"));
-    // console.log(arr.concat(["g"]));
-    // console.log(arr.copyWithin(0,3,4));
-    // console.log(arr.fill("a"));
-    // console.log([[1,2],[3,4]].flat());
-    // console.log(arr.pop());
-    // console.log(arr);
-    // console.log(arr.push("e"));
-    // console.log(arr);
-    // console.log(arr.shift());
-    // console.log(arr);
-    // console.log(arr.splice(1,2));
-    // console.log(arr);
+  // 배열 메소드
+  const arr = ["A", "B", "c", "d"];
 
-    // const idx = arr.indexOf("d");
-    // console.log(arr.splice(idx,1));
-    // console.log(arr);
+  // console.log(arr.concat("e", "f"));
+  // console.log(arr.concat(["g"]));
+  // console.log(arr.copyWithin(0,3,4));
+  // console.log(arr.fill("a"));
+  // console.log([[1,2],[3,4]].flat());
+  // console.log(arr.pop());
+  // console.log(arr);
+  // console.log(arr.push("e"));
+  // console.log(arr);
+  // console.log(arr.shift());
+  // console.log(arr);
+  // console.log(arr.splice(1,2));
+  // console.log(arr);
 
-    // 콜백 함수
-    // callback
+  // const idx = arr.indexOf("d");
+  // console.log(arr.splice(idx,1));
+  // console.log(arr);
 
-    // const temp = () => console.log("ㅎㅇ");
-    // const temp1 = () => console.log("ㅂㅇ");
+  // 콜백 함수
+  // callback
 
-    // const myFunc = (func) => {
-    //     // 작업 완료 시 외부 함수를 작동하고 싶다
-    //     // 외부 함수를 개발자가 선택하게 하고 싶다
-    //     func();
-    // }
+  // const temp = () => console.log("ㅎㅇ");
+  // const temp1 = () => console.log("ㅂㅇ");
 
-    // myFunc(temp);
-    // myFunc(() => console.log("asdf"));
+  // const myFunc = (func) => {
+  //     // 작업 완료 시 외부 함수를 작동하고 싶다
+  //     // 외부 함수를 개발자가 선택하게 하고 싶다
+  //     func();
+  // }
 
-    // const checkName = (name, checker) => {
-    //     const result = checker(name);
-    //     console.log(result);
-    // }
+  // myFunc(temp);
+  // myFunc(() => console.log("asdf"));
 
-    // const tempName = "jaybon";
-    // const tempChecker = (name) => {
-    //     return name.indexOf("a");
-    // }
+  // const checkName = (name, checker) => {
+  //     const result = checker(name);
+  //     console.log(result);
+  // }
 
-    // checkName(tempName, tempChecker);
+  // const tempName = "jaybon";
+  // const tempChecker = (name) => {
+  //     return name.indexOf("a");
+  // }
 
-    // 함수를 매개변수로 받는 배열 메소드
-    // forEach, filter, map, every, find, some, reduce
+  // checkName(tempName, tempChecker);
 
-    // arr.forEach(value => console.log(value));
+  // 함수를 매개변수로 받는 배열 메소드
+  // forEach, filter, map, every, find, some, reduce
 
-    // console.log(arr.filter((value) => value != "d"));
+  // arr.forEach(value => console.log(value));
 
-    // const predicate = (value) => {
-    //     return value == "d";
-    // }
+  // console.log(arr.filter((value) => value != "d"));
 
-    // arr.filter(predicate);
+  // const predicate = (value) => {
+  //     return value == "d";
+  // }
 
-    // 객체 Map과 array 메소드 map은 전혀 상관 없다
-    // 기존 데이터를 변경하거나 타입을 바꿔서 배열을 만들 때 사용
+  // arr.filter(predicate);
 
-    const callback = (e) => {
-        // return e.repeat(3);
-        // return [e]
-        return arr.indexOf(e);
-    }
+  // 객체 Map과 array 메소드 map은 전혀 상관 없다
+  // 기존 데이터를 변경하거나 타입을 바꿔서 배열을 만들 때 사용
 
-    const result = arr.map(callback);
-    console.log(result);
+  const callback = (e) => {
+    // return e.repeat(3);
+    // return [e]
+    return arr.indexOf(e);
+  };
 
+  const result = arr.map(callback);
+//   console.log(result);
 
+  // 객체
+  const obj = {
+    key1: "value1",
+    key2() {
+      this.key1;
+    },
+    key3: {
+      subKey1: "subValue1",
+    },
+  };
 
+  obj?.key3?.subKey1
+
+  // Date
+
+//   console.log(`Date.now() : ${Date.now()}`);
+  const myDate = new Date();
+  const tempDate = new Date('2023-01-01T12:00:00.000z');
+//   console.log(myDate);
+//   console.log(tempDate);
+
+//   console.log(`myDate.getFullYear() : ${myDate.getFullYear()}`);
+//   console.log(`myDate.getMonth() : ${myDate.getMonth()}`);
+//   console.log(`myDate.getDate() : ${myDate.getDate()}`);
+//   console.log(`myDate.getDay() : ${myDate.getDay()}`);
+//   console.log(`myDate.toJSON() : ${myDate.toJSON()}`);
+  
+  // navigator
+//   window.document.getElementById("");
+//   document.getElementById("");
+
+//   window.location.href = "";
+//   location.href = "";
+
+  const a = 1;
+  b = 1; // window.b = 1;
+  console.log(window.a);
+  console.log(window.b);
 
 </script>
